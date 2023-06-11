@@ -10,7 +10,7 @@ const httpTrigger: AzureFunction = async function (
 
     const entity = {
       PartitionKey: { _: board },
-      RowKey: { _: id },
+      RowKey: { _: id.toString() },
     };
 
     await remove("Posts", entity);

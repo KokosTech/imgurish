@@ -8,7 +8,7 @@
       "methods": [
         "delete"
       ],
-      "route": "boards/{board}/posts/{post}"
+      "route": "boards/{board}/posts/{id}"
     },
     {
       "type": "http",
