@@ -11,7 +11,7 @@ const httpTrigger: AzureFunction = async function (
     const result = await query("Posts", q);
     const boards = new Set(result["value"]?.map((item) => item.PartitionKey));
     context.res = {
-      body: boards,
+      body: Array.from(boards),
     };
   } catch (error) {
     context.res = {
