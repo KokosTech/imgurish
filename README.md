@@ -72,7 +72,7 @@ To create an Azure Functions and Storage Account, as well as set up a table and 
 - Once the Storage Account is created, navigate to the Storage Account resource in the Azure portal.
 - Under the "Services" section, select "Tables" and create a new table by providing a name and any desired properties.
 - Similarly, under the "Services" section, select "Containers" and create a new blob container by providing a name and the desired access level.
-- 
+
 ### Connect GitHub Account and Repository:
 - In the Azure portal, navigate to your Azure Functions resource.
 - Under the "Functions" section, click on "Add" to add a new function.
